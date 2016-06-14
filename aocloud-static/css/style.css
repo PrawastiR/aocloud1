@@ -1,0 +1,189 @@
+.btn-primary{
+	background: #2b78e4;
+}
+.navbar-default{
+	background-color: #2b78e4;
+	border-radius: 0;
+	border-color: none;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.navbar-default .navbar-text {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #1a5fbf;
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #1a5fbf;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #fff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #1a5fbf;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #1a5fbf;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+}
+.navbar-default .navbar-link {
+  color: #fff;
+}
+.navbar-default .navbar-link:hover {
+  color: #fff;
+}
+.navbar-default .btn-link {
+  color: #fff;
+}
+.navbar-default .btn-link:hover,
+.navbar-default .btn-link:focus {
+  color: #fff;
+}
+.navbar-default .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:hover,
+.navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:focus {
+  color: #fff;
+}
+
+#logo{
+	padding: 8px 0;
+	color: #fff;
+	font-weight: bold;
+	font-size: 22px;
+}
+#tab {
+	text-align: center;
+	border-bottom: 0;
+	border-radius: 5px;
+}
+#tab a{
+	padding: 8px 16px;
+	text-decoration: none;
+	background: #efefef;
+	border: 0;
+	border-radius: 0;
+}
+#tab li, #tab a{
+	margin: 0;
+}
+#tab li:first-child a{
+	border-radius: 5px 0 0 5px;
+}
+#tab li:last-child a{
+	border-radius: 0 5px 5px 0;
+}
+#tab li.active a{
+	background: #2b78e4;
+	color: #fff;
+}
+.page-header{
+	font-size: 20px;
+	color: #666;
+}
+#tree{
+	font-size: 16px;
+}
+#tree li{
+	padding: 3px 0;
+}
+#tree li a{
+	text-decoration: none;	
+}
+#tree li a i{
+	width: 20px;
+}
+#tree li ul{
+	margin-top: 5px;
+}
+#tree, #tree ul{
+	padding: 0;
+	margin: 0;
+	display: block;
+	list-style: none;
+}
+#tree ul{
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+.thumbnail{
+	cursor: pointer;
+}
+.thumbnail.active{
+	background: #c4f0ff
+}
+*, *:before, *:after {box-sizing:  border-box !important;}
+
+
+#files .row {
+ -moz-column-width: 15em;
+ -webkit-column-width: 15em;
+ -moz-column-gap: 0em;
+ -webkit-column-gap:0em;
+}
+
+#files .row .item {
+ display: inline-block;
+ width:  100%; 
+ float:none;
+}
+
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: ">";
+}
